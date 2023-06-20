@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+*{
+margin:0;
+padding:0;
+}
+
+header{
+    height: 90px;
+    width: 100% ;}
+
+.body {
+    background-color: rgb(253, 237, 219);
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+}
+
+ul{
+    display:flex;
+}
+
+li{    
+    height: 90px;
+    width:225px;
+    justify-content: center;
+}
+
+ul li a{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+li img {
+    height: 90px;
+    width:auto;
+    }
+
+    .navLis{
+    display: flex;
+    justify-self: center;   
+    align-self:center ;
+    
+}
+
+    a{
+        text-decoration: none;
+        color: black;
+        height: 90px;
+        width: 225px;
+    }
+
+
+footer{
+    background-color: black;
+    height: 120px;
+    width: auto;
+}
+
+.redesEstilo{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+    height: 100%;
+    width: auto;
+}
+
+.logosRedes{
+    width: auto;
+}
+
+
+
+.fotoLogo{
+    width: 90px;
+    max-height: Auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridFotosInicio{
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px;
+    grid-template-rows: 180px 180px;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.fotoGridInicio{
+    height:180px ;
+    width:180px ;
+}
+
+h1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.tituloInicio{
+    grid-column:1/3 ;
+    grid-row:1/2 ;
+    align-self: center;
+    justify-self: left;
+    color: orangered;}
+
+
+h2.subtitulosInicio{
+text-align: center;
+color:  rgb(197, 168, 36);
+}
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.parrafosInicio{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.gridServicios{
+    display: grid;
+    grid-template-columns: 360px 180px 180px ;
+    grid-template-rows: 30px 180px 30px 180px 30px 180px;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 15px;
+}
+
+.fotosDelGridServicios{
+    height:180px;
+    width:180px;
+}
+
+#subtituloInicio0{
+grid-column: 1/4;
+grid-row: 1/2;
+
+}
+
+#subtituloInicio1{
+    grid-column: 1/4;
+    grid-row:3/4 ;
+    }
+    
+#subtituloInicio2{
+    grid-column: 1/4;
+    grid-row: 5/6;
+    }
+
+.parrafoServicioRobot{
+    grid-column:1/2 ;
+    grid-row:2/3;
+}
+.parrafoServicioPista{
+    grid-column:1/2;
+    grid-row:4/5 ;
+}
+.parrafoServicioCabina{
+    grid-column:1/2;
+    grid-row:6/7 ;
+}
+
+.gridClientes{
+    display: grid;
+    grid-template-columns: 180px 300px 180px 300px;
+    grid-template-rows: 180px 180px 180px;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10PX;
+    margin-top: 10PX;
+}
+
+.elementosGridClientesA{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: rgb(224, 196, 142);
+    display: flex;
+}
+
+.elementosGridClientesB{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    background-color: rgb(224, 196, 142);
+    display: flex;
+}
+
+.elementosGridClientesC{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: rgb(224, 196, 142);
+    display: flex;
+}
+
+.elementosGridClientesD{
+    grid-column: 3/5;
+    grid-row: 2/3;
+    background-color: rgb(224, 196, 142);
+    display: flex;
+}
+
+.elementosGridClientesE{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-color: rgb(224, 196, 142);
+    display: flex;
+}
+
+.elementosGridClientesF{
+    grid-column: 3/5;
+    grid-row: 3/4;
+    background-cOlor: rgb(224, 196, 142);
+    display: flex;
+}
+
+.fotoGridClientes{
+    height: 150px;
+    width: auto;
+}
+
+.parrafosClientes{
+    font-size:14px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-top: 15px;
+    margin-left:10px ;
+    text-align: center;}
+
+.backgroundContacto{
+    height: auto;
+    width: 1340px;
+}
+
+.bodyContacto{
+    background-image: url(../images/backgroundcontacto.jpg);
+}
+
+.gridGaleria{
+align-items: center;
+justify-content: center;
+display: grid;
+grid-template-columns: 200px 200px 200px 200px;
+grid-template-rows: 200px 200px 200px 200px ;
+gap: 1px;
+margin-bottom: 15px;
+margin-top: 50px;
+}
+
+.fotosGridGaleria{
+height: 200px;
+width: 200px;
+}
+
+form{
+    height: 310px;
+}
+
+@media (max-width:480px)
+{
+
+header{
+height: 200px;
+}
+
+nav{
+    height: 200px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns:  105px 105px 105px 105px;
+    grid-template-rows: 60px 60px 60px ;
+    margin-left: 60px;
+}
+
+li{
+    height:60px;
+    width: 105px;
+}
+
+#logoUrbanLi{
+    grid-column:1/4 ;
+    grid-row:1/2 ;  
+}
+
+#navLisInicio{
+grid-column:1/2 ;
+grid-row:2/3 ;
+}
+#navLisContacto{
+    grid-column:3/4 ;
+    grid-row:2/3 ;
+}
+#navLisGaleria{
+    grid-column:1/2 ;
+    grid-row:3/4 ;
+}
+
+#navLisServicios{
+    grid-column:2/3 ;
+    grid-row:3/4 ;
+}
+
+#navLisClientes{
+    grid-column:2/3 ;
+    grid-row:2/3 ;
+}
+
+.gridFotosInicio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.fotoGridInicio{
+    height:90px ;
+    width:90px ;
+    margin-left: 10px;
+}
+
+.gridGaleria{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 105px 105px 105px 105px;
+    grid-template-rows: 105px 105px 105px 105px ;
+    gap: 1px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    }
+    
+    .fotosGridGaleria{
+    height: 105px;
+    width: 105px;
+    }
+
+    .gridClientes{
+        display: flex;
+        flex-direction: column;}
+
+.fotoGridClientes{
+    height: 50px;   
+}   
+
+.gridServicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotosDelGridServicios{
+
+}
+
+}
